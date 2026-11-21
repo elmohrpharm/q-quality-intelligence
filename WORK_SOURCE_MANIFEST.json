@@ -1,0 +1,42 @@
+{
+  "project_name": "Q-Quality Intelligence — SAT / Achievement Center / GAHAR Handbook",
+  "handoff_date": "2026-11-21",
+  "source_archive": "QQuality_GAHAR_2025_SAT_Achievement_Shared_Evidence_Mobile_FULL.zip",
+  "source_archive_sha256": "bbc75c2d99a0f075cd5e6dbaab47215dcc8a26b064d5753b064f3206cbcf53da",
+  "source_archive_entries": 787,
+  "baseline_note": "Unmodified files copied from the latest archive; only WORK_* docs and verify_package.py are new.",
+  "counts": {
+    "chapters": 16,
+    "standards": 248,
+    "eocs": 1157,
+    "gsr": 29,
+    "provisional_items": 70,
+    "document_eocs": 741,
+    "full_handbook_standard_details": 248,
+    "full_page_images": 573,
+    "provisional_page_images": 178
+  },
+  "critical_file_sha256": {
+    "index.html": "99de59877d36c965938c06631b8f778b849babb11a66a76944eec48051142cfe",
+    "sat.html": "4e65030ef123bc51437b0a8fafe473a4959122733b2cc205d490d60ae95570c4",
+    "achievement.html": "ade9adfa6ca4f696e18d558dd30cb61f4a953eb8fc5432e454810c2242caa77d",
+    "handbook.html": "6407a563dbc1082f8f4aae7229916c57578898ad5f8039f36e7d03208dfd75ba",
+    "app.js": "d3c266ba5c396be61769a57ed150a87a35f1821f6f565f115cc021735b1e8ba0",
+    "style.css": "b416d48efa69fac5f0d0658f76dbdeddca606d9b749fa51b9b36a58f8ca30fbd",
+    "data.js": "4b99908ab504407336193534d3467a9425010cdf29892171cf2386c8ffa95f8b",
+    "README_AR.md": "d5ab09e392f4491dd64b554b470d131434f947ac8b936dfe7bce0c3479fc000e",
+    "data/sat_2025.json": "2f34d1bc4a3bcf40bd2a1ee73564e422ebd2f8203d8bb857baa02d89b98d2993",
+    "data/full_handbook_2025.json": "a628fd458389e5b9f74adb448c6bca1691fc1228cf2a363bc3b85ed4b26bd84b",
+    "data/document_2025_index.json": "2c2a3fa3a4ba904e426715312041f0281f25e94a97b20d27d23b6924b5802a0e",
+    "assets/GAHAR_Full_2025_Original_SAT.xlsx": "5468b68088dcde8d88f32635cc209cae4571e2cf67983504c34849bf7fc425be",
+    "assets/GAHAR_Full_2025_EN.pdf": "b9f31142f84f10abcd8b1d6e759def63ed7d485c7d53ce8ce6b3346eb47e4b9a",
+    "assets/GAHAR_Provisional_2025_AR.pdf": "9730ac60a3d231f8b40b710ef516ff6c90f0bd31f858f780da35dc40e3d267ad"
+  },
+  "readme": "WORK_START_HERE.md",
+  "limitations": [
+    "Browser-local syncing only (same origin/browser)",
+    "Real IndexedDB persistence and multi-user sync not end-to-end tested",
+    "Partial Arabic Intent/EOC translations",
+    "Not deployed to production"
+  ]
+}
